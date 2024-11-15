@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: lexend;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    margin-top: 50px;
+    color: #1cda23;
+    animation: animate-4 1s ease-in-out infinite alternate;
+}
+
+img {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 200px;
+    height: 300px;
+    width: 450px;
+    border-radius: 15px;
+}
+
+#img1{
+    box-shadow: 0px 0px 30px aqua;
+}
+
+#img2{
+    box-shadow: 0px 0px 30px white;
+}
+
+#img3{
+    box-shadow: 0px 0px 30px orange;
+}
+
+h2 {
+    font-family: lexend;
+    font-size: 30px;
+}
+
+#wtr {
+    font-family: lexend;
+    color: aqua;
+    animation: animate 1s ease-in-out infinite alternate;
+    margin-top: 100px;
+    margin-left: 70px;
+    position: absolute;
+    font-size: 35px;
+}
+
+@keyframes animate {
+    from {
+        text-shadow: 0 0 20px aqua;
+    }
+    to{
+        text-shadow: 0 0 30px aqua,
+                    0 0 10px aqua;
+    }
+}
+
+#air {
+    font-family: lexend;
+    color: white;
+    animation: animate-2 1s ease-in-out infinite alternate;
+    font-size: 35px;
+    margin-left: 660px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+@keyframes animate-2 {
+    from {
+        text-shadow: 0 0 20px white;
+    }
+    to{
+        text-shadow: 0 0 30px white,
+                    0 0 10px white;
+    }
+}
+
+#soil {
+    font-family: lexend;
+    color: chocolate;
+    animation: animate-3 1s ease-in-out infinite alternate;
+    font-size: 35px;
+    margin-left: 1165px;
+    margin-top: 100px;
+    position: absolute;
+    font-size: 35px;
+}
+
+@keyframes animate-3 {
+    from {
+        text-shadow: 0 0 20px orange;
+    }
+    to{
+        text-shadow: 0 0 30px orange,
+                    0 0 10px orange;
+    }
+}
+
+@keyframes animate-4 {
+    from {
+        text-shadow: 0 0 20px #4CAF50;
+    }
+    to{
+        text-shadow: 0 0 30px #4CAF50,
+                    0 0 10px #4CAF50;
+    }
+}
+
+.home {
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    min-height: 100vh;
+}
+
+i{
+    font-size: 50px;
+}
+
+#back{
+    margin-left: 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+}

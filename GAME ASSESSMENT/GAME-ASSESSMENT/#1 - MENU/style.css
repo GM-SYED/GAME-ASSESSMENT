@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: lexend;
+    min-height: 100vh;
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+
+h1 {
+    font-family: lexend;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 50px;
+    color: white;
+}
+
+.btn {
+    font-family: lexend;
+    width: 20%;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 10%;
+    padding: 15px 25px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background: linear-gradient(aqua, white, chocolate);
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;    
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.btn:active {
+  transform: translateY(4px);
+
+}
+
+.audio {
+    display: none;
+}
+
